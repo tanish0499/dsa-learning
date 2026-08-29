@@ -1,0 +1,23 @@
+name: Python solutions
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      DSA_TEST_TARGET: solutions
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Run solution tests
+        run: python -m unittest discover -s exercises/python
