@@ -49,9 +49,9 @@ turning the exercise files into an answer sheet.
 | 03 | Two pointers | Ready |
 | 04 | Sliding window | Ready |
 | C1 | Mixed foundations checkpoint | Complete |
-| 05 | Stack | Ready |
-| 06 | Queue | Ready |
-| 07 | Linked list | Planned |
+| 05 | Stack | Complete (solution sync pending) |
+| 06 | Queue | Complete (solution sync pending) |
+| 07 | Linked list | Ready |
 | 08 | Recursion | Planned |
 | 09 | Trees | Planned |
 | 10 | Binary search | Planned |
