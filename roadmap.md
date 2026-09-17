@@ -100,6 +100,23 @@ Expected practice:
 - 20 beginner problems
 - 15 medium problems
 
+## Exercise Pacing From Linked Lists Onward
+
+The learner benefits from similar, repeated exercises and small increases in
+difficulty. Apply this when creating every future module:
+
+- Provide about 18 to 24 exercises per module, split into small sections.
+- Introduce one movement or idea at a time, then give 3 to 5 variations.
+- Insert easier bridge exercises before combining patterns in medium problems.
+- Include clear examples, empty-input behavior, and runnable skip-friendly tests.
+- Ask for a paper trace and plain-English steps before implementation.
+- Where useful, start with brute force, then improve the same problem.
+- Assign 2 or 3 exercises at a time; advance after an independent re-solve.
+- Keep advanced extensions optional until the simpler pattern is comfortable.
+
+Linked Lists now has 18 exercises following this progression. The existing
+Arrays and Hash Maps practice ladders remain available for revision.
+
 ## Revision System
 
 For every topic, revise after:
@@ -124,4 +141,3 @@ Move to the next topic only when:
 3. You can solve 2 or 3 medium exercises with hints.
 
 This is not a race. DSA becomes easier when the same mental pictures repeat enough times.
-

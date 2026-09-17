@@ -52,6 +52,19 @@ Before coding, trace these by hand:
 11. `is_palindrome`
 12. `compress_repeated_chars`
 
+## Repetition Ladder
+
+Use `practice_ladder.py` to add smaller steps between the exercises above:
+
+1. After `count_even_numbers`: `count_greater_than`, then `sum_positive_numbers`.
+2. After `find_maximum`: `find_minimum`.
+3. After `contains_value`: `first_index_of`.
+4. After `double_numbers`: `running_sums`.
+5. Before `second_largest`: `longest_word`.
+
+Run these with `test_practice_ladder.py`. They deliberately repeat the same
+scan, count, best-so-far, and result-building movements.
+
 ## How To Think
 
 For every function, write a short trace before coding.

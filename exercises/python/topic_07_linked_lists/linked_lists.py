@@ -53,12 +53,46 @@ def linked_list_length(head):
     raise NotImplementedError
 
 
+def sum_node_values(head):
+    """Return the sum of integer node values; return 0 for an empty list.
+
+    Example: 4 -> -2 -> 7 -> None returns 9.
+    Traverse the nodes without converting them into a Python list.
+    """
+    raise NotImplementedError
+
+
 def contains_value(head, target):
     """
     Return True when target occurs in the linked list.
 
     Example:
     4 -> 7 -> 2 -> None, target=7 returns True
+    """
+    raise NotImplementedError
+
+
+def count_occurrences(head, target):
+    """Count nodes equal to target; return 0 for an empty list.
+
+    Example: 4 -> 7 -> 4 -> None, target=4 returns 2.
+    """
+    raise NotImplementedError
+
+
+def last_value(head):
+    """Return the final node's value, or None for an empty list.
+
+    Example: 4 -> 7 -> 2 -> None returns 2.
+    """
+    raise NotImplementedError
+
+
+def maximum_value(head):
+    """Return the largest node value, or None for an empty list.
+
+    Values are integers and may all be negative.
+    Example: -4 -> -7 -> -2 -> None returns -2.
     """
     raise NotImplementedError
 
@@ -75,12 +109,49 @@ def value_at_index(head, index):
     raise NotImplementedError
 
 
+def prepend_value(head, value):
+    """Add one new node before head and return the new head.
+
+    Keep the existing nodes and their order. An empty list becomes one node.
+    Example: 4 -> 7 -> None, value=2 becomes 2 -> 4 -> 7 -> None.
+    """
+    raise NotImplementedError
+
+
 def append_value(head, value):
     """
     Add a new node at the end and return the possibly new head.
 
     Example:
     4 -> 7 -> None, value=2 becomes 4 -> 7 -> 2 -> None
+    """
+    raise NotImplementedError
+
+
+def insert_after_first(head, target, value):
+    """Insert one new node after the first target and return head.
+
+    Keep all existing nodes. Leave the list unchanged if target is absent.
+    Example: 4 -> 7 -> 4 -> None, target=4, value=2
+    becomes 4 -> 2 -> 7 -> 4 -> None.
+    """
+    raise NotImplementedError
+
+
+def delete_head(head):
+    """Return the remaining head after removing the first node.
+
+    Reuse the remaining nodes. Return None for an empty or one-node list.
+    Example: 4 -> 7 -> 2 -> None becomes 7 -> 2 -> None.
+    """
+    raise NotImplementedError
+
+
+def delete_tail(head):
+    """Remove the last node and return the remaining head.
+
+    Reuse the remaining nodes. Return None for an empty or one-node list.
+    Example: 4 -> 7 -> 2 -> None becomes 4 -> 7 -> None.
     """
     raise NotImplementedError
 

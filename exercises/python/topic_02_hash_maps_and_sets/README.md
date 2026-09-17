@@ -34,6 +34,19 @@ Trace these by hand before coding:
 9. `group_words_by_first_letter`
 10. `first_non_repeating_character`
 
+## Repetition Ladder
+
+Use `practice_ladder.py` between the main exercises:
+
+1. After `has_duplicate`: `contains_all_values`.
+2. After `unique_values`: `common_values_once`.
+3. After `count_values`: `count_words`, then `values_appearing_once`.
+4. Before `is_anagram`: `same_frequencies`.
+5. Before `group_words_by_first_letter`: `group_words_by_length`.
+
+These repeat the choice between set membership and dictionary frequencies
+before combining those ideas in medium problems.
+
 ## How To Think
 
 For each problem, decide first:
@@ -54,4 +67,3 @@ see 5 -> not present -> add 5
 seen = {2, 5}
 see 2 -> already present -> return True
 ```
-
