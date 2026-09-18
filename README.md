@@ -51,8 +51,8 @@ turning the exercise files into an answer sheet.
 | C1 | Mixed foundations checkpoint | Complete |
 | 05 | Stack | Complete (solution sync pending) |
 | 06 | Queue | Complete (solution sync pending) |
-| 07 | Linked list | Ready |
-| 08 | Recursion | Planned |
+| 07 | Linked list | Complete (user reported; cross-device review pending) |
+| 08 | Recursion | Ready - 20 exercises |
 | 09 | Trees | Planned |
 | 10 | Binary search | Planned |
 | 11 | Heap / priority queue | Planned |
